@@ -19,30 +19,22 @@ The purpose of this project is to analyze the Uber Fares Dataset to uncover impo
 - **Data Preparation:** The data was loaded into a Pandas DataFrame using Python for cleaning and exploratory analysis.
 
 ### Screenshot: Data Loading in Python
-
-_(Insert screenshot here showing the code or output when loading the dataset into Pandas)_  
 ![Data Loading](screenshots/code1.png)
 
 - **Data Cleaning:** Missing values and inconsistencies were identified and handled to ensure accurate analysis.
 
-### Screenshot: Data Cleaning Process
-
-_(Insert screenshot here showing missing value handling or data cleaning code/output)_  
+### Screenshot: Data Cleaning Process 
 ![Data Cleaning](<Screenshots/code2.png>)
 
 - **Feature Engineering:** New features like hour, day of week, and peak/off-peak indicators were created to enhance the analysis.
 
 ### Screenshot: Feature Engineering Code
-
-_(Insert screenshot here showing code creating new features like hour, day, peak time, etc.)_  
-![Feature Engineering](./Screenshots/image5.png)
+![Feature Engineering](Screenshots/image5.png)
 
 - **Visualization:** Cleaned data was imported into Power BI to create dynamic visualizations and dashboards.
 
 ### Screenshot: Data Import into Power BI
-
-_(Insert screenshot showing import of cleaned CSV into Power BI)_  
-![Power BI Import](./Screenshots/powerbi_import.png)
+![Power BI Import](Screenshots/dax.npg)
 
 ---
 
@@ -55,48 +47,35 @@ _(Insert screenshot showing import of cleaned CSV into Power BI)_
 ### Screenshot: Box Plot Showing Outliers
 
 _(Insert screenshot of box plot visualization identifying outliers in fare amount)_  
-![Outliers Box Plot](./screenshots/outliers_boxplot.png)
+![Outliers Box Plot](screenshots/image4.png)
 
 ---
 
 ## 4. Exploratory Data Analysis (EDA)
-
 - Descriptive statistics and distribution analysis were performed.
 
 ### Screenshot: Descriptive Statistics Output
-
-_(Insert screenshot of Python output or table showing mean, median, standard deviation, etc.)_  
-![Descriptive Statistics](./screenshots/descriptive_statistics.png)
-
+![Descriptive Statistics](screenshots/image3.png)
 - Visualizations showing fare distribution patterns were created in Power BI.
 
 ### Screenshot: Fare Distribution Visualization
-
-_(Insert screenshot of histogram or box plot visual in Power BI)_  
-![Fare Distribution](./screenshots/fare_distribution.png)
+![Fare Distribution](screenshots/image6.png)
 
 - Relationships between fare and distance, and fare and time of day were analyzed.
 
 ### Screenshot: Scatter Plot of Fare vs Distance
-
-_(Insert scatter plot screenshot)_  
-![Fare vs Distance](./screenshots/fare_vs_distance.png)
+![Fare vs Distance](screenshots/image3.png)
 
 ### Screenshot: Time of Day Fare Patterns
-
-_(Insert line/bar chart showing fares by time of day)_  
-![Fare by Time of Day](./screenshots/fare_by_time.png)
+![Fare by Time of Day](screenshots/image2.png)
 
 ---
 
 ## 5. Feature Engineering
-
 - Hour, day, month, and peak/off-peak indicators were extracted and encoded.
 
 ### Screenshot: Feature Table Preview
-
-_(Insert screenshot of DataFrame preview with new features added)_  
-![Feature Table](./screenshots/feature_table.png)
+![Feature Table](screenshots/dax.png)
 
 ---
 
@@ -105,16 +84,14 @@ _(Insert screenshot of DataFrame preview with new features added)_
 - Created interactive visuals analyzing fare trends, ride patterns, and geographic distributions.
 
 ### Screenshot: Power BI Dashboard Overview
-
-_(Insert screenshot showing the full dashboard interface)_  
-![Dashboard Overview](./screenshots/dashboard_overview.png)
+ 
+![Dashboard Overview](screenshots/dax.png)
 
 - Included histograms, time series charts, and maps.
 
 ### Screenshot: Geographic Distribution Map
-
-_(Insert map visualization of ride locations)_  
-![Geographic Map](./screenshots/geographic_map.png)
+  
+![Geographic Map](screenshots/image6.png)
 
 ---
 
