@@ -18,27 +18,31 @@ The purpose of this project is to analyze the Uber Fares Dataset to uncover impo
 - **Data Collection:** The dataset was downloaded from Kaggle, containing Uber ride fare information with timestamps, locations, distances, and fare amounts.
 - **Data Preparation:** The data was loaded into a Pandas DataFrame using Python for cleaning and exploratory analysis.
 
-### Screenshot: Data Loading in Python  
-*(Insert screenshot here showing the code or output when loading the dataset into Pandas)*  
-![Data Loading](screenshots/code1)
+### Screenshot: Data Loading in Python
+
+_(Insert screenshot here showing the code or output when loading the dataset into Pandas)_  
+![Data Loading](screenshots/code1.png)
 
 - **Data Cleaning:** Missing values and inconsistencies were identified and handled to ensure accurate analysis.
 
-### Screenshot: Data Cleaning Process  
-*(Insert screenshot here showing missing value handling or data cleaning code/output)*  
-![Data Cleaning](./screenshots/code2.png)
+### Screenshot: Data Cleaning Process
+
+_(Insert screenshot here showing missing value handling or data cleaning code/output)_  
+![Data Cleaning](<Screenshots/code2.png>)
 
 - **Feature Engineering:** New features like hour, day of week, and peak/off-peak indicators were created to enhance the analysis.
 
-### Screenshot: Feature Engineering Code  
-*(Insert screenshot here showing code creating new features like hour, day, peak time, etc.)*  
-![Feature Engineering](./screenshots/feature_engineering.png)
+### Screenshot: Feature Engineering Code
+
+_(Insert screenshot here showing code creating new features like hour, day, peak time, etc.)_  
+![Feature Engineering](./Screenshots/image5.png)
 
 - **Visualization:** Cleaned data was imported into Power BI to create dynamic visualizations and dashboards.
 
-### Screenshot: Data Import into Power BI  
-*(Insert screenshot showing import of cleaned CSV into Power BI)*  
-![Power BI Import](./screenshots/powerbi_import.png)
+### Screenshot: Data Import into Power BI
+
+_(Insert screenshot showing import of cleaned CSV into Power BI)_  
+![Power BI Import](./Screenshots/powerbi_import.png)
 
 ---
 
@@ -48,8 +52,9 @@ The purpose of this project is to analyze the Uber Fares Dataset to uncover impo
 - Initial data assessment revealed some missing and inconsistent values, which were removed or corrected.
 - Outliers in fare amounts were identified using box plots and addressed to avoid skewed analysis.
 
-### Screenshot: Box Plot Showing Outliers  
-*(Insert screenshot of box plot visualization identifying outliers in fare amount)*  
+### Screenshot: Box Plot Showing Outliers
+
+_(Insert screenshot of box plot visualization identifying outliers in fare amount)_  
 ![Outliers Box Plot](./screenshots/outliers_boxplot.png)
 
 ---
@@ -58,24 +63,28 @@ The purpose of this project is to analyze the Uber Fares Dataset to uncover impo
 
 - Descriptive statistics and distribution analysis were performed.
 
-### Screenshot: Descriptive Statistics Output  
-*(Insert screenshot of Python output or table showing mean, median, standard deviation, etc.)*  
+### Screenshot: Descriptive Statistics Output
+
+_(Insert screenshot of Python output or table showing mean, median, standard deviation, etc.)_  
 ![Descriptive Statistics](./screenshots/descriptive_statistics.png)
 
 - Visualizations showing fare distribution patterns were created in Power BI.
 
-### Screenshot: Fare Distribution Visualization  
-*(Insert screenshot of histogram or box plot visual in Power BI)*  
+### Screenshot: Fare Distribution Visualization
+
+_(Insert screenshot of histogram or box plot visual in Power BI)_  
 ![Fare Distribution](./screenshots/fare_distribution.png)
 
 - Relationships between fare and distance, and fare and time of day were analyzed.
 
-### Screenshot: Scatter Plot of Fare vs Distance  
-*(Insert scatter plot screenshot)*  
+### Screenshot: Scatter Plot of Fare vs Distance
+
+_(Insert scatter plot screenshot)_  
 ![Fare vs Distance](./screenshots/fare_vs_distance.png)
 
-### Screenshot: Time of Day Fare Patterns  
-*(Insert line/bar chart showing fares by time of day)*  
+### Screenshot: Time of Day Fare Patterns
+
+_(Insert line/bar chart showing fares by time of day)_  
 ![Fare by Time of Day](./screenshots/fare_by_time.png)
 
 ---
@@ -84,8 +93,9 @@ The purpose of this project is to analyze the Uber Fares Dataset to uncover impo
 
 - Hour, day, month, and peak/off-peak indicators were extracted and encoded.
 
-### Screenshot: Feature Table Preview  
-*(Insert screenshot of DataFrame preview with new features added)*  
+### Screenshot: Feature Table Preview
+
+_(Insert screenshot of DataFrame preview with new features added)_  
 ![Feature Table](./screenshots/feature_table.png)
 
 ---
@@ -94,14 +104,16 @@ The purpose of this project is to analyze the Uber Fares Dataset to uncover impo
 
 - Created interactive visuals analyzing fare trends, ride patterns, and geographic distributions.
 
-### Screenshot: Power BI Dashboard Overview  
-*(Insert screenshot showing the full dashboard interface)*  
+### Screenshot: Power BI Dashboard Overview
+
+_(Insert screenshot showing the full dashboard interface)_  
 ![Dashboard Overview](./screenshots/dashboard_overview.png)
 
 - Included histograms, time series charts, and maps.
 
-### Screenshot: Geographic Distribution Map  
-*(Insert map visualization of ride locations)*  
+### Screenshot: Geographic Distribution Map
+
+_(Insert map visualization of ride locations)_  
 ![Geographic Map](./screenshots/geographic_map.png)
 
 ---
@@ -127,5 +139,3 @@ The analysis of Uber fares provides valuable insights into fare patterns over ti
 - Future studies could include weather data to enhance fare pattern predictions.
 
 ---
-
-
